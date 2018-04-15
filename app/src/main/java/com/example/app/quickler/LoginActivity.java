@@ -100,7 +100,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if (mAuth.getCurrentUser() != null){
             finish();
-            startActivity(new Intent(this, UploadActivity.class));
+            startActivity(new Intent(this, MainActivity.class));
         }
     }
 
